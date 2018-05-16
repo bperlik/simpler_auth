@@ -2,7 +2,6 @@ require_dependency "simpler_auth/application_controller"
 
 module SimplerAuth
   class DashboardController < ApplicationController
-    def index
-    end
+    before_action :authenticate_administrator!
   end
 end
