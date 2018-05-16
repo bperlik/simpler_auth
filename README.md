@@ -1,5 +1,6 @@
 # SimplerAuth
-Short description and motivation.
+Not always want to start or test with a complicated authentication gem,
+I created a simple rails gem.
 
 ## Usage
 How to use my plugin.
